@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 24px;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.logo {
+  height: 42px;
+  width: auto;
+  margin-right: 12px;
+  border-radius: 4px;
+}
+
+.brand-name {
+  font-weight: bold;
+  font-size: 20px;
+  color: #111;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.navbar a {
+  color: #111;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.navbar a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.welcome {
+  margin-right: 10px;
+  color: #333;
+}
+
+.logout-btn {
+  background-color: #ff4d4d;
+  border: none;
+  padding: 6px 12px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #e60000;
+}
