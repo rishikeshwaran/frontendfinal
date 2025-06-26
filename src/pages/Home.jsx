@@ -5,7 +5,7 @@ function Home() {
   const [topics, setTopics] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/topics')
+    fetch('https://backendfinal-2-ghhp.onrender.com/api/topics')
       .then(res => res.json())
       .then(data => setTopics(data))
       .catch(err => console.error('Error fetching topics:', err));

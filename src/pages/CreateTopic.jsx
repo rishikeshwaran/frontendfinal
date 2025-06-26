@@ -16,7 +16,7 @@ function CreateTopic() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const res = await fetch('http://localhost:5000/api/topics', {
+    const res = await fetch('https://backendfinal-2-ghhp.onrender.com/api/topics', {
       method: 'POST',
       headers: {
   'Content-Type': 'application/json',
